@@ -2,7 +2,31 @@
 
 -----
 
+*[LeetCode.com](https://leetcode.com/)
+
+-----
+
 ## This is to record each LeetCode question with my solution.
-*I will also post the correct solution with it*
+#####I will also post the correct solution with it######
+
+*Use "Ctrl + F" then type name or number for faster searching*
 
 ----
+
+### Easy Level Questions
+
++ [Two Sums]()
+
+
+
+
+----
+
+### Medium Level Questions
+
+
+
+
+----
+
+### Hard Level Questions
