@@ -187,7 +187,7 @@ However, the result isn't as impressive as Two-Pass Hash Table.
 
 -----
 
-#Conclusion
+# Conclusion
 
 1. There are many solutions for this question, from using loops to hash table,
 need to be familiar with basic ideas also need to know time complexity.
