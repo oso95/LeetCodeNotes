@@ -15,7 +15,7 @@
 
 ### Easy Level Questions
 
-+ [Two Sums]()
++ [Two Sums](https://github.com/cywang95/LeetCodeNotes/blob/main/Notes/Q1-TwoSum.md)
 
 
 
