@@ -10,10 +10,13 @@ You may assume that each input would have **exactly one solution**, and you may 
 
 You can return the answer in any order.
 
+
+
 *In/Output example*
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q1-TwoSum/InOutPutExamle.png?raw=true)
 
 *Additional Information*
+
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q1-TwoSum/otherRequirement.png?raw=true)
 
 -----
@@ -21,9 +24,14 @@ You can return the answer in any order.
 # Solution 1
 
 **First Attend**
+
 *Time: Time Limit Exceeded*
+
 *Memory: -*
+
 *Test Cases Passed: 53/54*
+
+
 
 *Python3 Code*
 
@@ -39,8 +47,9 @@ class Solution:
 ```
 
 
-*idea*
 
+
+*idea:*
 Using two loop to read thru all the numbers from the array.
 
 Since we can not use same element twice, I added condition `if i != j` to make
@@ -59,15 +68,20 @@ some other issues.
 
 
 **Second Attend**
+
 *Time: 9216ms*
+
 *Memory: 14.9 MB*
+
 *Test Cases Passed: 54/54*
 
 
 On my second attends, it successfully submitted it so we know that the only
 thing we need to reduce the compiling time.
 
+
 *I would suggest submit it more than once in case if you luckily have easier task cases*
+
 
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q1-TwoSum/DoubleCheck.png?raw=true)
 
@@ -76,9 +90,13 @@ thing we need to reduce the compiling time.
 # Solution 2
 
 **First Attend**
+
 *Time: 564ms*
+
 *Memory: 14.7 MB*
+
 *Test Cases Passed: 54/54*
+
 
 *Python3 Code*
 
@@ -95,7 +113,6 @@ class Solution:
 
 
 *idea*
-
 To avoid using two loops, we read each numbers and k will become an index of an
 array. so `if target - i in nums[k:]:` *(need to use k:)* will let us know where
 the number is located in the array.
@@ -115,6 +132,8 @@ We reduce the look up time from *O(n)* to *O(1)* by trading space for speed. A h
 A simple implementation uses two iterations. In the first iteration, we add each element’s value and its index to the table. Then, in the second iteration we check if each element’s complement *(target−nums[i])* exists in the table.
 
 Beware that the complement must not be *nums[i]* itself!
+
+
 
 
 *Python3 Code*
@@ -137,11 +156,14 @@ class Solution:
 
 
 
+
+
 **One-Pass Hash Table**
 
 It turns out we can do it in one-pass. While we iterate and inserting elements into the table, we also look back to check if current element’s complement already exists in the table.
 
 If it exists, we have found a solution and return immediately.
+
 
 *Python3 Code*
 ```
@@ -174,4 +196,5 @@ need to be familiar with basic ideas also need to know time complexity.
 
 -----
 *Date: 2021/7/9 11:50PM*
+
 *Author: CYWang*
