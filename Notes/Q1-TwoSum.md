@@ -35,7 +35,8 @@ You can return the answer in any order.
 
 *Python3 Code*
 
-```
+```Python3
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
@@ -100,7 +101,7 @@ thing we need to reduce the compiling time.
 
 *Python3 Code*
 
-```
+```Python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         k = 0
@@ -138,7 +139,7 @@ Beware that the complement must not be *nums[i]* itself!
 
 *Python3 Code*
 
-```
+```Python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashTable = {}
@@ -166,7 +167,8 @@ If it exists, we have found a solution and return immediately.
 
 
 *Python3 Code*
-```
+```Python3
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashTable = {}
