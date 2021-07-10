@@ -191,7 +191,7 @@ However, the result isn't as impressive as Two-Pass Hash Table.
 
 1. There are many solutions for this question, from using loops to hash table,
 need to be familiar with basic ideas also need to know time complexity.
-2. Need to improve Python3, still stucking on some syntax.
+2. Need to improve Python3, still stuck on some syntax.
 3. Didn't know anything about Hash Table, need to take a look of it
 
 -----
