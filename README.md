@@ -14,11 +14,10 @@
 
 ### Easy Level Questions
 
-Number| Title                            | Language
-------|----------------------------------|------------
-1     |[Two Sums](https://bit.ly/3htdkMm)| Python3    
-------|----------------------------------|------------
-7     |[Reverse Integer]                 | Python3
+Number| Title                            | Language  |LeetCode Link
+------|----------------------------------|-----------|-
+1     |[Two Sums](https://bit.ly/3htdkMm)| Python3   | [LeetCode](https://leetcode.com/problems/two-sum/)
+7     |[Reverse Integer](https://bit.ly/3hte9EW)| Python3 |[LeetCode](https://leetcode.com/problems/reverse-integer/)
 
 
 
