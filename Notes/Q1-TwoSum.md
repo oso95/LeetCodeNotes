@@ -1,5 +1,6 @@
-# Two Sums
+# Q1: Two Sums
 
+**Level: Easy**
 ------
 
 *Description*
