@@ -14,7 +14,9 @@
 
 ### Easy Level Questions
 
-+ [Two Sums](https://github.com/cywang95/LeetCodeNotes/blob/main/Notes/Q1-TwoSum.md)
+Number| Title | Language |
+----------------------------------
+1     |[Two Sums](https://github.com/cywang95/LeetCodeNotes/blob/main/Notes/Q1-TwoSum.md)| Python3|
 
 
 
