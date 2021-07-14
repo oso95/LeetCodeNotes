@@ -55,3 +55,29 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].`
 
 
 ---------
+
+# Solution 1
+
+*Time: 44ms*
+
+*Memory: 14.4MB*
+
+*Test Cases Passed: 3999/3999*
+
+```Python3
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        map = {'I': 1, 'IV': 4, 'V': 5, 'IX': 9, 'X': 10, 'XL': 40, 'L': 50, 'XC': 90, 'C': 100, 'CD':400, 'D': 500, 'CM':900,'M': 1000}
+        num = 0
+        i = 0
+        while i < len(s):
+            if i+1 < len(s) and s[i:i+2] in map:
+                num = num + map[s[i:i+2]]
+                i += 2
+            else:
+                num += map[s[i]]
+                i+=1
+        print(num)
+```
+
+**idea**
