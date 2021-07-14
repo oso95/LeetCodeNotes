@@ -77,7 +77,18 @@ class Solution:
             else:
                 num += map[s[i]]
                 i+=1
-        print(num)
+        return num
 ```
 
 **idea**
+
+Creating a map for each roman numeral then using while loop to check thru each
+elements in the string.
+
+if `s[i:i+2]` (two numeral) is in the map we created then add value to num and
+`i += 2` to skip the used roman numeral.
+
+
+![image]()
+
+![image]()
