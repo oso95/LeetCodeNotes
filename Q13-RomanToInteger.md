@@ -89,6 +89,44 @@ if `s[i:i+2]` (two numeral) is in the map we created then add value to num and
 `i += 2` to skip the used roman numeral.
 
 
-![image]()
+![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/1solution.png?raw=true)
 
-![image]()
+![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/1solutionSubmission.png?raw=true)
+
+---------
+
+# Solution 2
+
+*Time: 28ms*
+
+*Memory: 14.3MB*
+
+*Test Cases Passed: 3999/3999*
+
+```Python3
+class Solution:
+    def romanToInt(self, s: str) -> int:
+      res, prev = 0, 0
+      dict = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+
+      for i in s[::-1]:          # rev the s
+        if dict[i] >= prev:
+          res += dict[i]     # sum the value iff previous value same or more
+
+        else:
+          res -= dict[i]     # substract when value is like "IV" --> 5-1, "IX" --> 10 -1 etc
+
+        prev = dict[i]
+
+      return res
+```
+
+**idea**
+
+Faster solution found on the discussion place, it will reverse the roman numeral
+and check if it is because then the previous one.
+
+
+![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/2solution.png?raw=true)
+
+![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/2solutionSubmission.png?raw=true)
