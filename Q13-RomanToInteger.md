@@ -130,3 +130,16 @@ and check if it is because then the previous one.
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/2solution.png?raw=true)
 
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q13-RomanToInteger/2solutionSubmission.png?raw=true)
+
+-----
+
+**Conclusion**
+
+I was struggling one this question although I made a Roman numeral converter before.
+
+Founding lack of ability is always good for me so I have idea how to improve myself.
+
+----
+*Date: 2021/7/14 12:01PM*
+
+*Author: CYWang*
