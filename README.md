@@ -18,7 +18,7 @@ Number| Title                            | Language  |LeetCode Link
 ------|----------------------------------|-----------|-
 1     |[Two Sums](https://bit.ly/3htdkMm)| Python3   | [LeetCode](https://leetcode.com/problems/two-sum/)
 7     |[Reverse Integer](https://bit.ly/3hte9EW)| Python3 |[LeetCode](https://leetcode.com/problems/reverse-integer/)
-9     |[Roman to Integer]()|Python3|[LeetCode]()
+9     |[Roman to Integer](https://github.com/cywang95/LeetCodeNotes/blob/main/Notes/Q9-PalindromeNumber.md)|Python3|[LeetCode](https://leetcode.com/problems/palindrome-number/)
 
 
 
