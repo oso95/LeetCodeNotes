@@ -1,4 +1,4 @@
-# Q7: Reverse Integer
+# Q9: Palindrome number
 
 **LeveL: Easy**
 
