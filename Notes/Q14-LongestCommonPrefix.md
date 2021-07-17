@@ -57,3 +57,59 @@ Vertical scanning with while and if statement.
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q14-Longest%20Common%20Prefix/Q14solution1.png?raw=true)
 
 ![image](https://github.com/cywang95/images/blob/main/LeetCode/Q14-Longest%20Common%20Prefix/3submissions%20result.png?raw=true)
+
+----------
+
+**solution 2**
+
+```Python3
+
+
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        strs.sort()
+
+        f=strs[0]
+        l=strs[len(strs)-1]  
+        s=""
+        for i in range(len(min(f,l))):
+            if l[i]==f[i]:
+                s+=l[i]
+            else:
+                break
+        return s
+
+```
+
+
+**idea**
+
+You need to know how **sort()** function works
+
+*Ex1*
+
+`["abc","adc","aac"]`
+stdout
+after sort= `['aac', 'abc', 'adc']`
+
+*Ex2*
+
+`["aad","aac","aaa"]`
+stdout
+after sort= `['aaa', 'aac', 'aad']`
+
+sort will orderante the string in alphabet order.
+
+after sort you need to check first and last word then you find common char
+
+-----
+
+
+**Conclusion**
+
+
+
+----
+*Date: 2021/7/17 11:35PM*
+
+*Author: CYWang*
