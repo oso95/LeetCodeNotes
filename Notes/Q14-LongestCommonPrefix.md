@@ -98,7 +98,7 @@ after sort= `['aac', 'abc', 'adc']`
 stdout
 after sort= `['aaa', 'aac', 'aad']`
 
-sort will orderante the string in alphabet order.
+sort will sort the string in alphabet order.
 
 after sort you need to check first and last word then you find common char
 
